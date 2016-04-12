@@ -19,3 +19,4 @@ st.encode!("US-ASCII")
 p st.encoding
 
 #magic comment ( # encoding: ASCII )
+#MAGIC
