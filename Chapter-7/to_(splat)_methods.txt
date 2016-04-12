@@ -1,0 +1,15 @@
+
+>> "123abc".to_i
+=> 123
+>> Integer("123abc")
+ArgumentError: invalid value for Integer(): "123abc"
+>> Float("3")
+=> 3.0
+>> Float("-3")
+=> -3.0
+>> Float("-3xyz")
+ArgumentError: invalid value for Float(): "-3xyz"
+
+These can be redefined in classes:
+to_str 
+to_ary
