@@ -22,6 +22,15 @@ puts t.dst?
 
 puts t.strftime("%d-%B-%Y")
 
+#sprintf is a useful too and similar to strftime 
+def hours_mins m
+	h = m / 60
+	m -= h * 60
+	sprintf("%d:%02d", h, m)
+end
+p hours_mins(6784)
+#=> "113:04"
+
 =begin
 
 %Y Year (four digits)
