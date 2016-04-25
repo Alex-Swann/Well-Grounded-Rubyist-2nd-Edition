@@ -77,7 +77,7 @@ c_instance = c.new
 c_instance.some_method
 
 # class_eval allows you do essentially do what creating a class does
-# however it can also allow you set call variables that lie outside the
+# however it can also allow you to call variables that lie outside the
 # scope of the class.
 
 var = "some variable"
